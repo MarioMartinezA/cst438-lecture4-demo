@@ -83,7 +83,7 @@ function getTweets(accessToken) {
             console.log("########################################"); 
             console.log("status code: " + this.statusCode); 
             //console.log("Complete response: " + completeResponse); 
-            
+            //console.log("Complete response: " + completeResponse); 
             var responseJSON = JSON.parse(completeResponse); 
             var tweetsList = responseJSON.statuses; 
             
