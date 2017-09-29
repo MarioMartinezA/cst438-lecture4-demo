@@ -80,7 +80,7 @@ function getTweets(accessToken) {
       });
       
       twitterResponse.on('end', function() {
-            console.log("########################################"); 
+            console.log("#########################################"); 
             console.log("status code: " + this.statusCode); 
             //console.log("Complete response: " + completeResponse); 
             
